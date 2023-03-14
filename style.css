@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.main {
+    width: 600px;
+    height:500px;
+    background: #164b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    background: #156ece;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlex {
+    width: 250px;
+    height: 250px;
+    background:  #164b83;
+    position: absolute;
+    top:46%;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circley {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background:  #164b83;
+    position: absolute;
+    bottom: 46%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlex1 {
+    background: #156ece;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+.circley1 {
+    background: #156ece;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+
+.circlea {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background:  transparent;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 47%; 
+    border: 25px solid #164b83;;
+
+} 
+
+.circlez {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background:  transparent;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    right: 47%; 
+    border: 25px solid #164b83;;
+}
+
